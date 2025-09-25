@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "nombre": "Desarrollo Web",
+    "precio": 800000,
+    "precio_promocion": 720000,
+    "promocion": true,
+    "cantidad": 5,
+    "estado": "Activo",
+    "descripcion": "Diseñamos y desarrollamos sitios web modernos, optimizados para dispositivos móviles y con una arquitectura escalable que garantiza rapidez, seguridad y fácil mantenimiento."
+  },
+  {
+    "id": 2,
+    "nombre": "Soporte Técnico",
+    "precio": 600000,
+    "precio_promocion": 540000,
+    "promocion": true,
+    "cantidad": 20,
+    "estado": "Activo",
+    "descripcion": "Brindamos soporte remoto y presencial para resolver incidentes tecnológicos, mantenimiento preventivo y correctivo, así como asistencia personalizada para asegurar la continuidad de tu negocio."
+  },
+  {
+    "id": 3,
+    "nombre": "Hosting",
+    "precio": 400000,
+    "promocion": false,
+    "cantidad": 100,
+    "estado": "Activo",
+    "descripcion": "Ofrecemos planes de hosting seguros y confiables con alta disponibilidad, certificados SSL incluidos y copias de seguridad automáticas para mantener tu sitio en línea sin interrupciones."
+  },
+  {
+    "id": 4,
+    "nombre": "Marketing Digital",
+    "precio": 1000000,
+    "precio_promocion": 900000,
+    "promocion": true,
+    "cantidad": 8,
+    "estado": "Activo",
+    "descripcion": "Creamos estrategias digitales personalizadas que incluyen campañas en redes sociales, publicidad en Google Ads y optimización de contenido para aumentar la visibilidad de tu marca."
+  },
+  {
+    "id": 5,
+    "nombre": "Diseño Gráfico",
+    "precio": 700000,
+    "precio_promocion": 630000,
+    "promocion": true,
+    "cantidad": 10,
+    "estado": "Activo",
+    "descripcion": "Diseñamos logotipos, material publicitario e identidad corporativa alineada a la visión de tu empresa, con un enfoque creativo y profesional para destacar en tu sector."
+  },
+  {
+    "id": 6,
+    "nombre": "Gestión de Redes Sociales",
+    "precio": 500000,
+    "promocion": false,
+    "cantidad": 12,
+    "estado": "Activo",
+    "descripcion": "Administramos de forma integral tus redes sociales con contenido atractivo, monitoreo de interacción y métricas detalladas para potenciar la relación con tus clientes."
+  },
+  {
+    "id": 7,
+    "nombre": "SEO",
+    "precio": 900000,
+    "precio_promocion": 810000,
+    "promocion": true,
+    "cantidad": 6,
+    "estado": "Activo",
+    "descripcion": "Optimizamos tu sitio web para motores de búsqueda mediante análisis de palabras clave, creación de contenido de valor y estrategias de posicionamiento que incrementan tu tráfico orgánico."
+  },
+  {
+    "id": 8,
+    "nombre": "Consultoría en TI",
+    "precio": 850000,
+    "promocion": false,
+    "cantidad": 4,
+    "estado": "Activo",
+    "descripcion": "Asesoramos a tu empresa en infraestructura tecnológica, ciberseguridad y transformación digital, asegurando soluciones eficientes y alineadas con tus objetivos de negocio."
+  },
+  {
+    "id": 9,
+    "nombre": "Mantenimiento de Equipos",
+    "precio": 300000,
+    "promocion": false,
+    "cantidad": 30,
+    "estado": "Activo",
+    "descripcion": "Realizamos mantenimiento preventivo y correctivo de equipos de cómputo, garantizando su rendimiento óptimo y prolongando la vida útil de tus dispositivos."
+  },
+  {
+    "id": 10,
+    "nombre": "Gestión de Bases de Datos",
+    "precio": 650000,
+    "promocion": false,
+    "cantidad": 3,
+    "estado": "Activo",
+    "descripcion": "Diseñamos, administramos y optimizamos bases de datos con altos estándares de seguridad, asegurando integridad de la información y acceso eficiente a tus datos críticos."
+  }
+]
