@@ -45,7 +45,7 @@ stages {
         }
     }
 
-    stage('Validar documentación Entrega 3') {
+    stage('Validar documentacion Entrega 3') {
         steps {
             sh 'grep -q "Entrega 3" CHANGELOG.md'
             sh 'grep -q "Jenkins" CHANGELOG.md'
@@ -54,10 +54,10 @@ stages {
         }
     }
 
-    stage('Resultado de integración') {
+    stage('Resultado de integracion') {
         steps {
-            echo 'Validación CI completada correctamente.'
-            echo 'Proyecto validado con Jenkins, Docker, backend, Travis CI propuesto y documentación de Codeship.'
+            echo 'Validacion CI completada correctamente.'
+            echo 'Proyecto validado con Jenkins, Docker, backend, Travis CI propuesto y documentacion de Codeship.'
         }
     }
 }
@@ -68,7 +68,7 @@ post {
     }
 
     failure {
-        echo 'El pipeline falló. Revisar estructura del proyecto, archivos Docker, backend o documentación.'
+        echo 'El pipeline fallo. Revisar estructura del proyecto, archivos Docker, backend o documentacion.'
     }
 }
 ```
