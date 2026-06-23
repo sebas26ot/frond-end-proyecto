@@ -1,13 +1,28 @@
-version: '3'
 
 services:
-
   frontend:
     build: .
+    container_name: frontend_entrega3
     ports:
       - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - app-network
 
   backend:
     build: ./backend
+    container_name: backend_entrega3
     ports:
       - "3000:3000"
+    environment:
+      - APP_ENV=ci
+      - APP_VERSION=3.0.0
+      - PORT=3000
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+

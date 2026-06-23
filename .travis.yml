@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - "18"
+
+services:
+  - docker
+
+script:
+  - docker compose config
+  - docker compose build
+  - docker compose up -d
+  - docker compose ps
